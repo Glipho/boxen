@@ -85,4 +85,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # glipho
+  include glipho::environment
 }
