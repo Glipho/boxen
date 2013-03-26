@@ -1,2 +1,3 @@
-class glipho::environment
+class glipho::environment {
 	include chrome
+}
