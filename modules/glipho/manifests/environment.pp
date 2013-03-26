@@ -4,7 +4,6 @@ class glipho::environment {
 	include sublime_text_2
 	include java
 	include vagrant
-	vagrant::plugin { '
 	vagrant::plugin { 'vagrant-vmware-fusion':
 		license => 'puppet:///modules/people/joe/licenses/fusion.lic',
 	}
