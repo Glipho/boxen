@@ -5,4 +5,6 @@ class glipho::environment {
 	include java
 	include virtualbox
 	include vagrant
+	include sourcetree
+	include iterm2::stable
 }
