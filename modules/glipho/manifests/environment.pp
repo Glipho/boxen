@@ -7,4 +7,5 @@ class glipho::environment {
 	include vagrant
 	include sourcetree
 	include iterm2::stable
+	include hipchat
 }
